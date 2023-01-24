@@ -1,0 +1,60 @@
+body{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    color: white;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-portada{
+    width:270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+}
+.artista{
+    font-family: 'Prata', serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+.informacion-cancion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.informacion{
+    margin-bottom: 8px;
+}
+.reproductor{
+    
+}
+.titulo{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.letra{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    line-height: 10px;
+    margin-bottom: 16px;
+}
+.resaltado{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
